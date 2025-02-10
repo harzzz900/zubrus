@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.base-text {
+  @apply text-sm font-normal;
+}
+
+.regular-text {
+  @apply text-base font-normal leading-[28px];
+}
+
+.medium-text {
+  @apply text-lg font-semibold leading-[20px];
+}
+
+.subheading-text {
+  @apply text-[32px] font-semibold leading-[40px];
+}
+
+.primary-btn {
+  @apply bg-darkblue text-white py-4 rounded-2xl;
+}
+
+.secondary-btn {
+  @apply bg-white text-black py-4 rounded-2xl border;
+}
+
+.heroSlider .swiper-pagination-bullet {
+  @apply duration-300 h-2.5 w-2.5;
+}
+
+.heroSlider .swiper-pagination-bullet-active {
+  @apply rounded-full w-7 bg-darkblue;
+}
+
+body {
+  margin: 0;
+  font-family: "Figtree", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.goog-te-gadget {
+  color: transparent !important;
+  margin-top: 10px;
+
+}
+
+.skiptranslate span {
+  display: none;
+}
+
+.skiptranslate select {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  padding: 10px;
+  width: 180px !important;
+  /* padding-left: 22px; */
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  position: relative !important;
+}
+
+.skiptranslate :first-child {
+  position: relative;
+}
+
+.skiptranslate :first-child::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 18px;
+  height: 7px;
+  width: 7px;
+  transform: rotateZ(315deg);
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none !important;
+}
+
+.skiptranslate {
+  margin-top: -40px !important;
+}
+
+/* .translated-ltr {
+  margin-top: -40px !important;
+} */
