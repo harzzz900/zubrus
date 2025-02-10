@@ -13,7 +13,7 @@ export default function LoginPage() {
   const dispatch = useDispatch();
 
   const handleLogin = () => {
-    dispatch(setTabData("class"));
+    dispatch(setTabData("classes"));
     commonToast("sėkmingai prisijungė", "success");
   };
 
